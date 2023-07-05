@@ -2,7 +2,11 @@
 .DS_Store
 # Ignore the datasets folder in this directory
 /Users/maximilianolopezsalgado/data_projects/web_deployment_template
-# Ignore zip, db and csv files
+# Ignore zip, db, csv, img, jpeg, webp and png files
 *.csv
 *.zip  
 *.db
+*.img
+*.jpeg
+*.png
+*.webp

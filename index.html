@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bike Sharing Maps</title>
+    <title>Superstore E-Commerce Geographical Analysis</title>
     <style>
         body {
             display: flex;
@@ -13,36 +13,39 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: url('USE A LINK OR A PHOTO HERE.jpg') no-repeat center center fixed;
+            background: url('./images/background.jpeg') no-repeat center center fixed;
             background-size: cover;
         }
 
         header {
             text-align: center;
-            margin-top: 50px;
+            margin-top: 0px;
+            margin-bottom: 0;
             color: #fff;
-            font-size: 36px;
+            font-size: 28px;
             background-color: rgba(128, 128, 128, 0.3);
             padding: 10px;
-            text-shadow: 2px 2px 2px #000;
+            text-shadow: 3px 3px 3px #000;
         }
 
         nav {
             background-color: rgba(0, 0, 0, 0.5);
             padding: 10px;
             text-align: center;
+            margin-bottom: 10px;
         }
 
         nav a {
             color: #fff;
             text-decoration: none;
-            margin-right: 20px;
-            font-size: 18px;
+            margin-right: 5px;
+            font-size: 24px;
             text-shadow: 1px 1px 1px #000;
         }
 
         nav a:hover {
-            color: #ff7f50;
+            background-color: #ff7f50;
+            transition: background-color 0.3s ease;
         }
 
         footer {
@@ -60,28 +63,45 @@
             margin: 0;
         }
 
-        footer a {
+        footer .social-icons {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0px;
+        }
+
+        footer .social-icons img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        footer .social-icons a {
+            display: flex;
+            align-items: center;
             color: #fff;
             text-decoration: none;
-            margin: 10px;
-            font-size: 14px;
+            margin: 0px;
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Your Project</h1>
+        <h1>Superstore E-Commerce Geographical Analysis</h1>
     </header>
     <nav>
-        <a href="./visualization_1/visualization_1.html"><span>visualization_1</span></a>
-        <a href="./visualization_2/visualization_2.html"><span>visualization_2</span></a>
+        <a href="./visualization_1/top200_cities_map.html">Map - Top 200 Cities by Total Sales</a>
+        <a href="./visualization_2/top200_cities_heatmap.html">HeatMap - Top 200 Cities by Total Sales</a>
     </nav>
     <footer>
-        <p>A project dedicated to geographical data analysis</p>
-        <div>
-            <a href="https://github.com/MaxLopezSalgado">My GitHub</a>
-            <a href="https://www.linkedin.com/in/maximiliano-lopez-salgado/">My LinkedIn</a>
+        <p>A project dedicated to E-commerce geographical data analysis</p>
+        <div class="social-icons">
+            <a href="https://github.com/MaxLopezSalgado">
+                <img src="./images/github.png" alt="GitHub" width="25px" height="25px">
+                My GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/maximiliano-lopez-salgado/">
+                <img src="./images/linkedin.png" alt="LinkedIn" width="25px" height="25px">
+                My LinkedIn
+            </a>
         </div>
-    </footer>
-</body>
-</html>
